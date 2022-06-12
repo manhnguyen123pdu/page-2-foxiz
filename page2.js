@@ -56,7 +56,7 @@ nav2btn.onclick = function () {
 window.addEventListener('scroll',function(){
     for(g=0;g<topnew.length;g++){
         var vtpt=topnew[g].offsetTop;
-        if(window.pageYOffset>vtpt){
+        if(window.pageYOffset>vtpt-400){
             topnew[g].classList.add('hienra')
             console.log(vtpt)
         }
