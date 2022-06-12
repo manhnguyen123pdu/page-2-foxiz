@@ -1168,7 +1168,7 @@
          .fa-instagram{
             font-size: 4vw;
         }
-        .weather
+        
         .thu{
             width: 200px ;
             height: 200px;
@@ -1179,5 +1179,5 @@
         }
         .thu:hover{
             background-color: red;
-        }
+        
     }
