@@ -1169,5 +1169,15 @@
             font-size: 4vw;
         }
         .weather
-
+        .thu{
+            width: 200px ;
+            height: 200px;
+            background-color: #b9a2f7;
+            transition: 1s;
+            margin: auto;
+            z-index: 11111;
+        }
+        .thu:hover{
+            background-color: red;
+        }
     }
