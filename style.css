@@ -834,11 +834,11 @@
     }
 
     .social_face {
-        background-color: #7eb7f5;
+        background-color: #000000;
     }
 
     .social .social_face:hover {
-        background-color: #ec2020;
+        background-color: #ec2020!important;
     }
 
     .social_tw {
