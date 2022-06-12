@@ -1031,7 +1031,10 @@
     .thu{
         width: 200px ;
         height: 200px;
-        background-color: #000000;
+        background-color: #c4f7a2;
+        transition: 1s;
+        margin: auto;
+        z-index: 11111;
     }
     .thu:hover{
         background-color: red;
