@@ -837,7 +837,7 @@
         background-color: #7eb7f5;
     }
 
-    .social_face:hover {
+    .social .social_face:hover {
         background-color: #ec2020;
     }
 
@@ -845,7 +845,7 @@
         background-color: #55c5eb;
     }
 
-    .social_tw:hover {
+    .social .social_tw:hover {
         background-color: #14B9EE;
         box-shadow: 1px 2px 10px 5px #14B9EE;
         transform: translate(5px);
@@ -855,7 +855,7 @@
         background-color: #f55056;
     }
 
-    .social_yt:hover {
+    .social .social_yt:hover {
         background-color: #FC161E;
         box-shadow: 1px 2px 10px 5px #FC161E;
         transform: translate(5px);
@@ -865,7 +865,7 @@
         background-color: #61a7f1;
     }
 
-    .social_tele:hover {
+    .social .social_tele:hover {
         background-color: #3885D9;
         box-shadow: 1px 2px 10px 5px #3885D9;
         transform: translate(5px);
