@@ -368,6 +368,7 @@
         border: 1px solid rgba(194, 191, 191, 0.568);
         padding: 8px;
         background-color: white;
+        color: black;
     }
 
     .search_btn1 {
