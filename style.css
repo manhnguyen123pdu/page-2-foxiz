@@ -354,6 +354,8 @@
         border-right: none;
         border-left: none;
         outline: none;
+        border-radius: 0;
+        
     }
 
     .overmenu2__contents input::placeholder {
