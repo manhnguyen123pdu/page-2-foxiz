@@ -888,6 +888,155 @@
         margin-bottom: 10px;
     }
 
+    /* ----------------end top new---------------------------- */
+    /* ----------------intro2---------------------------- */
+    .intro2{
+        margin: 20px;
+    }
+    .intro2__items{
+   
+        display: grid;
+        grid-template-columns: repeat(10,1fr);
+        grid-template-rows: 9vw 9vw ;
+        gap: 10px;
+        grid-template-areas: 
+        'h1 h2 h2 h3 h3  h4 h4 h5  h6  h7'
+        'h8 h2 h2 h9 h10 h4 h4 h11 h11 h12'
+        ;
+    }
+    .intro2__content{
+        position: relative;
+    }
+    .intro2__items img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .black__bg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 11;
+        background-color: rgba(0, 0, 0, 0.466);
+        opacity: 0;
+        transition: .5s;
+    }
+    .intro2__content:hover .black__bg{
+        opacity: 1;
+    }
+  
+    .intro2__items .intro2__content:nth-child(1){
+        grid-area: h1;
+    }
+    .intro2__items .intro2__content:nth-child(2){
+        grid-area: h2;
+    }
+    .intro2__items .intro2__content:nth-child(3){
+        grid-area: h3;
+    }
+    .intro2__items .intro2__content:nth-child(4){
+        grid-area: h4;
+    }
+    .intro2__items .intro2__content:nth-child(5){
+        grid-area: h5;
+    }
+    .intro2__items .intro2__content:nth-child(6){
+        grid-area: h6;
+    }
+    .intro2__items .intro2__content:nth-child(7){
+        grid-area: h7;
+    }
+    .intro2__items .intro2__content:nth-child(8){
+        grid-area: h8;
+    }
+    .intro2__items .intro2__content:nth-child(9){
+        grid-area: h9;
+    }
+    .intro2__items .intro2__content:nth-child(10){
+        grid-area: h10;
+    }
+    .intro2__items .intro2__content:nth-child(11){
+        grid-area: h11;
+    }
+    .intro2__items .intro2__content:nth-child(12){
+        grid-area: h12;
+    }
+    .intro2__content--insta{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border: 1px solid rgb(233, 230, 230);
+
+    }
+    .insta{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 13px;
+    }
+     .fa-instagram{
+        font-size: 30px;
+    }
+    
+    /* ----------------end ỉntro2---------------------------- */
+    /* -----------------footer---------------------------- */
+    footer{
+        max-width: 1250px;
+        margin: auto;
+        padding: 20px ;
+    }
+    .footer__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer__top img{
+        width: 120px;
+    }
+    .footer__top i{
+        padding: 5px ;
+        transition: .2s;
+    }
+    .footer__top i:hover{
+        transform: scale(1.2);
+    }
+    .footer__right{
+        display: flex;
+        align-items: center;
+    }
+    .footer__right p{
+        padding: 5px;
+    }
+    .footer__bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .footer__bottom span{
+        font-size: 13px;
+    }
+    .footer__bottom ul{
+        display: flex;
+        list-style: none;
+    }
+    .footer__bottom ul li{
+        padding:5px 5px 0 5px;
+        font-size: 13px;
+    }
+    .footer__bottom ul li:nth-child(2n){
+        font-size: 20px;
+        color: gray;
+    }
+
+    /* ----------------end footer---------------------------- */
+
+
+
+
+
     /* ----------------respon---------------------------- */
 
     @media screen and (max-width:1025px) {
@@ -928,6 +1077,31 @@
         }
        
     }
+    @media screen and (max-width:756px) {
+        .intro2{
+            margin: 8px;
+        }
+        .intro2__items{
+            grid-template-columns: repeat(5,1fr);
+            grid-template-rows: 16vw  16vw  16vw  16vw ;
+            gap: 5px;
+            grid-template-areas: 
+            'h1 h2 h2 h3 h3'
+            'h4 h2 h2 h7 h6'
+            'h5 h5 h8 h9 h10'
+            'h5 h5 h11 h11 h12';
+        }
+        .footer__bottom span{
+            display: none;
+        }
+        .footer__bottom ul{
+            margin: auto;
+        }
+    }
+
+
+
+
     @media screen and (min-width:1026px) {
 
         .nav2,
