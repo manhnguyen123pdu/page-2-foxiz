@@ -7,8 +7,7 @@ var nav__overlay = document.querySelectorAll('.nav__overlay')
 var nav2btn = document.querySelector('.nav2btn')
 var overmenu2__contents = document.querySelector('.overmenu2__contents ')
 var nav2 = document.querySelector('.nav2t ')
-
-
+var topnew=document.querySelectorAll('.topnew__content')
 for (m = 0; m < moon.length; m++) {
     moon[m].onclick = function () {
         background.classList.add('background--black')
@@ -54,3 +53,12 @@ nav2btn.onclick = function () {
     nav2.classList.toggle('fix')
 }
 
+window.addEventListener('scroll',function(){
+    for(g=0;g<topnew.length;g++){
+        var vtpt=topnew[g].offsetTop;
+        if(window.pageYOffset>vtpt){
+            topnew[g].classList.add('hienra')
+            console.log(vtpt)
+        }
+        }
+    })
