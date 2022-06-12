@@ -1097,6 +1097,7 @@
         .footer__bottom ul{
             margin: auto;
         }
+        
     }
 
 
@@ -1148,6 +1149,15 @@
         }
         .topnew__content{
             width: 99%;
+        }
+        .insta{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            font-size: 2.2vw;
+        }
+         .fa-instagram{
+            font-size: 4vw;
         }
 
     }
