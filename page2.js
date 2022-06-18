@@ -58,7 +58,6 @@ window.addEventListener('scroll',function(){
         var vtpt=topnew[g].offsetTop;
         if(window.pageYOffset>vtpt-400){
             topnew[g].classList.add('hienra')
-            console.log(vtpt)
         }
         }
     })
